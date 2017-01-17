@@ -88,6 +88,9 @@
               "namespace": "${NAMESPACE}",
               "name": "nodejs:4"
             },
+            {
+		          "incremental" : "true"
+	  	       },
             "env":  [
               {
                   "name": "NPM_MIRROR",
